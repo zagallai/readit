@@ -3,7 +3,6 @@ import { isEmpty } from 'class-validator'
 import { getRepository } from 'typeorm'
 
 import auth from '../middleware/auth'
-import Post from '../entities/Post'
 import Sub from '../entities/Sub'
 import User from '../entities/User'
 
